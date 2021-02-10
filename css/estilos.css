@@ -1,0 +1,257 @@
+/*Aquí se almacenan los distintos estilos de la pagina*/
+
+body{
+    background-image: url('../img/pyramid.gif');
+
+}
+
+
+.panel-heading{
+    background-color: #0066cc !important;
+    color: white !important;
+}
+
+.navbar-static-top{
+    background-color: #2b2b2b !important; 
+
+
+}
+
+.jumbotron{
+    background-color: #0066cc;
+    color: white !important;
+}
+
+
+.panel-body{
+    color: #2b2b2b !important;
+}
+
+
+.navbar-brand:link, .navbar-brand:visited{
+    color: deepskyblue !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+    color: white !important;
+}
+
+#navbar li a:link, #navbar li a:visited {
+    color: white !important;
+}
+
+#navbar li a:hover, #navbar li a:active {
+    color: deepskyblue !important;
+}
+
+#navbar li a{
+    color: white !important;
+}
+
+.dropdown-menu{
+    background-color: #2b2b2b !important;
+}
+
+.open > a{
+    background-color: #2b2b2b !important;
+}
+
+.btn-primary:hover{
+    background-color: #2b2b2b !important;
+}
+
+.contenido-articulo{
+    background-color: white;
+    padding: 2em;
+}
+
+.sidebar{
+    background-color: #2b2b2b;
+    margin-top: -2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
+.maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.sidebar li a:link, .sidebar li a:visited{
+    color: white !important;
+}
+
+.sidebar li a:hover, .sidebar li a:active{
+    color: #0066cc !important;
+}
+
+.gg-elemento:hover{
+    background-color: #2b2b2b !important;
+}
+
+.sidebar, .gg-elemento{
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+#gg-entradas{
+    background-color: #3385ff;
+    color: white;
+}
+
+#gg-comentarios{
+    background-color: #1a75ff   ;
+    color: white ;
+}
+
+#gg-tramites{
+    background-color: #0066ff;
+    color: white ;
+}
+
+.gg-elemento{
+    border: black;
+}
+
+.sidebar, .parte-gestor-entrada{
+    padding-top: 1em !important;
+    margin-top: 1em !important;
+}
+
+.parte-gestor-entrada{
+    background-color: #0066cc !important;
+    color: white !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th{
+    background-color: #002966 !important;
+}
+
+.table-striped thead{
+    background-color: #2b2b2b !important;
+}
+
+.table-striped>tbody>tr>td{
+    border: none;
+}
+
+.table>thead>tr>th{
+    border: none !important;
+}
+
+tbody:before{
+    content: "-";
+    display: block;
+    line-height: 2em;
+    color: transparent;
+}
+
+#boton_entrada{
+    background-color: white ;
+    color: #0066cc ;
+}
+
+#boton_entrada:hover{
+    background-color: #2b2b2b !important;
+    color: white !important;
+}
+
+#nueva-entrada{
+    background-color: #0066ff !important;
+    color: white !important;
+}
+
+.btn-buscar {
+    background-color: black ;
+
+    color: white;
+}
+
+#resultados {
+    background-color: white !important;
+}
+
+.perfil{
+    background-color: white !important;
+}
+
+.boton_subir{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#label_archivo_subido {
+    background-color: #0066ff;
+    color: white;
+    cursor: pointer;
+    padding: 0.5em;
+    width: 100%;
+}
+
+#label_archivo_subido:hover{
+    background-color: #2b2b2b;
+    color: white;
+}
+
+#logo{
+    display: inline-block;
+}
+
+#nuevo-tramite{
+    background-color: white !important;
+    color: #2b2b2b !important;
+}
+
+
+.paginador ul{
+    padding: 15px;
+    list-style: none;
+    background: white !important;
+    margin-top: 15px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end
+}
+.paginador a, .pageSelected{
+    color: #0066ff !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+}
+
+.paginador a:hover{
+    color: white !important;
+    background: #3385ff !important;
+}
+
+.pageSelected{
+    color: white !important;
+    background: #3385ff !important;
+    border: 1px solid #ddd
+}
+
+#tipo_entrada{
+    background-color: #002966 !important;
+    color: white !important;
+}
+
+
